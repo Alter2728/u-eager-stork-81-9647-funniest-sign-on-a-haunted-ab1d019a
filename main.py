@@ -1,9 +1,9 @@
-"""Draft was a generic do not enter ghost pun with no IT life in it.
+"""Draft is a generic do not enter ghost pun with no IT life in it.
 Revision makes the ghost the old sysadmin and lands on unread tickets."""
 
 import os
 
-TEXT = 'PLEASE KNOCK — our former sysadmin haunts Rack 4 now. He still closes tickets without reading them.'
+TEXT = "PLEASE KNOCK — our old sysadmin haunts Rack 4. He still closes tickets unread."
 
 assert TEXT == TEXT.strip()
 assert "\n" not in TEXT and "\r" not in TEXT

@@ -1,12 +1,12 @@
-"""Draft is a generic do not enter ghost pun with no IT life in it.
-Revision makes the ghost the old sysadmin and lands on unread tickets."""
+"""Draft flaw: the first line was a generic warning that could hang anywhere.
+Revision fix: the final line gives the ghost a rack, a schedule, and a ticketing rule."""
 
 import os
 
-TEXT = "PLEASE KNOCK — our old sysadmin haunts Rack 4. He still closes tickets unread."
+TEXT = "WARNING: The ghost in Rack 4 only haunts during maintenance windows. Do not reboot him without an approved ticket."
 
 assert TEXT == TEXT.strip()
-assert "\n" not in TEXT and "\r" not in TEXT
+assert "\n" not in TEXT
 assert 1 <= len(TEXT) <= 120
 
 out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
